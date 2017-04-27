@@ -1,0 +1,142 @@
+
+<html>
+<head>
+    <title>CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content+"width=device-width, initial-scale=1.0"  >  
+    <link href="cv.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    <div class="header"></div>
+    <div class="main" >
+        <div  class="overlay" id="myNav" >   
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+            <div class="overlay-content">
+                 <a href="#about"  >About</a><br>
+                 <a href="#contact">Contact </a>
+                 
+            </div>
+        </div>
+        <div class="menuLines" >
+            <span style="font-size:40px; cursor:pointer;" onclick="openNav()">&#9776;
+            </span>
+        </div>
+     
+        <div class="name"> 
+             <p><b>PAUL DAVID BARNA</b></p>
+        </div>
+        <div class="namedevelop">
+            <p>FRONT-END DEVELOPER</p>
+        </div>
+        <br>
+        <div class="symbol">
+            <a href="#about"><i class="fa fa fa-angle-down fa-4x"></i></a>
+        </div>
+        
+    </div>
+    <div class="about">
+        <div id="about" href="about">
+            <p>ABOUT ME</p><br>
+            <div id="welcome">Welcome to my personal website and home on the internet, why not learn a little bit about me with a few quick facts.
+            </div>
+           
+        </div>
+          
+        <div class="abouticon">
+            <div class="location">
+                <div class="locationicon">
+                    <i class="fa fa-map-marker fa-5x"></i>   
+                </div>
+                <div class="locationtext">
+                    <p><b><u>Location</u></b></p>
+                    <p>I live in Oradea, Bihor at Emanuel's University.</p>
+                </div>
+            </div>    
+            <div class="edu">   
+                <div class="eduicon">
+                    <i class="	fa fa-graduation-cap fa-5x"></i>
+                </div>
+                <div class="edutext">
+                    <p><b><u>Education</u></b></p>
+                    <p>I greduated the High School in Athens, Greece and now I am in the 1st year of Informatics - Economics at "Emanuel" University in Oradea, Romania.</p>
+                </div>
+            </div>    
+            <div class="code">
+                <div class="codeicon">
+                    <i class="fa fa-code fa-5x"></i>
+                </div> 
+                <div class="codetext">
+                    <p><b><u>Coding</u></b></p>
+                    <p>In this two semesters I learnt the basic things in JavaScript, Java, Database, HTML5, CSS3. You can find some of my projects on the bottom of the page. </p>    
+                </div>    
+            </div>
+            <div class="lang">
+                <div class="langicon">    
+                    <i class="	fa fa-language fa-5x"></i>
+                </div>
+                <div class="langtext">
+                    <p><b><u>Language</u></b></p>
+                    <p>I was born in Athens but I am romanian so I have two native languages Romanian and Greek.I can understand everything in English because I have been learning since now and I can have a normal conversation.</p>
+                </div>
+            </div>    
+            <div class="case">   
+                <div class="caseicon">
+                    <i class="	fa fa-briefcase fa-5x"></i>
+                </div>
+                <div class="casetext">
+                    <p><b><u>Experience</u></b></p>
+                    <p>I have paricipated as volunteer at Business Focus Days in Oradea.</p>
+                </div>
+            </div>    
+            <div class="hobby">
+                <div class="hobbyicon">
+                    <i class="fa fa-heart fa-5x" ></i>
+                </div>
+                <div class="hobbytext">
+                    <p><u><b>Hobbies</b></u></p>
+                    <p>In my free time I enjoy playing the piano and the drums. Also, I like playing soccer with my friends, table tennis and bowling.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quotes">
+        <div class="quotestext">
+            <p>First, solve the problem. Then, write the code.</p>
+            <p>~ John Johnson ~</p>
+            
+        </div>
+    </div>
+    
+    <div class="contact">
+        <div id="contact" href="contact">CONTACT ME</div>
+        <div class="container">
+            <input type="text" id="name" name="name"   placeholder="Name">
+            <input type="text" id="email" name="email" placeholder="E-mail">
+            <textarea id="message" name="message" placeholder="Message" style="height:100px"></textarea> 
+            <div class="submit">
+                 <input type="submit" value="SUBMIT" >
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="contacticon">
+        <a href="https://github.com/barnapaul"><i class="fa fa-github fa-4x" aria-hidden="true"></i> </a>
+        <a href="https://www.linkedin.com/in/paul-barna-93a247137/"><i class="fa fa-linkedin fa-4x"></i> </a>
+        <a href="https://jsfiddle.net/user/bpd98/fiddles/"><i class="fa fa-jsfiddle fa-4x"></i> </a>
+        <a href="mailto:paul.barna@emanuel.ro" target="_top">
+            <i class="fa fa-envelope fa-4x"></i></a>
+    </div>
+    <script>
+        function openNav() {
+        document.getElementById("myNav").style.width = "18%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }        
+    </script>
+  
+</body>
+</html>

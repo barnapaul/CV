@@ -1,0 +1,342 @@
+html *{
+    margin: 0px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.42);
+
+}
+
+.main{
+    background-image: url(https://static.pexels.com/photos/94730/pexels-photo-94730.jpeg);
+    position:relative;
+    z-index:1;
+    height:100%;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+}
+
+.name{
+    
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    padding-top:530px;
+}
+.namedevelop{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    padding-top:10px;
+}
+.section {        
+    position:relative;
+    z-index:1;
+    height:500px;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+}
+.content {
+    position:relative;
+    z-index:2;
+    background-color:black;
+    border:2px solid #666;    
+    height:50%; 
+    color: white;
+}
+
+.main .symbol a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.6s;
+        opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+    
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: darkgray;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #fff;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.menuLines{
+    position: fixed;
+    margin-left: 10px;
+    
+}
+.about{
+    height: 120%;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/7e/f7/af/7ef7afec8113fa43891f4077c4069221.jpg);
+    
+}
+#about{
+    text-align: center;
+    font-size:60px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 3%;
+    
+}
+#welcome{
+    text-align: center;
+    font-size: 21px;
+    font-family: serif;
+    
+    
+}
+.about .abouticon .location{
+    width:30%;
+    height: 30%;
+    margin-left: 50px;
+    float: left;
+    
+}
+.about .abouticon .location .locationicon .fa-map-marker{
+    margin-top: 40px;
+    margin-left: 45%;
+
+}
+.about .abouticon .location .locationtext{
+    padding-top:20px;
+    padding-left: 5%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.about .abouticon .edu{
+    width:33%;
+    height: 30%;
+    float: left;
+}
+.about .abouticon .edu .eduicon .fa-graduation-cap{
+    margin-top: 40px;
+    margin-left: 45%;
+}
+.about .abouticon .edu .edutext{
+    padding-top:20px;
+    padding-left: 5%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.about .abouticon .code{
+    width:31%;
+    height: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.about .abouticon .code .codeicon .fa-code{
+    margin-top: 40px;
+    margin-left: 45%;
+}
+.about .abouticon .code .codetext{
+    padding-top:20px;
+    padding-left: 8%;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.about .abouticon .lang {
+    width:28%;
+    height: 45%;
+    float: left;
+    margin-left: 50px;
+}
+.about .abouticon .lang .langicon .fa-language{
+    margin-top: 100px;
+    margin-left: 45%;
+}
+.about .abouticon .lang .langtext{
+    padding-top:20px;
+    font-family: monospace;
+    padding-left: 5%;
+    font-size: 20px;
+} 
+.about .abouticon .case {
+    width:31%;
+    height: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.about .abouticon .case .caseicon .fa-briefcase{
+    margin-top: 100px;
+    margin-left: 45%;
+}
+.about .abouticon .case .casetext{
+    padding-top:20px;
+    padding-left: 8%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.about .abouticon .hobby {
+    width:33%;
+    height: 30%;
+    float: left;
+}
+.about .abouticon .hobby .hobbyicon .fa-heart{
+    margin-top: 100px;
+    margin-left: 50%;
+}
+.about .abouticon .hobby .hobbytext{
+    padding-top:20px;
+    padding-left: 12%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.quotes{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 20%
+
+}
+.quotes .quotestext{
+    font-family: monospace;
+    font-size: 35px;
+    color: white;
+    padding-left: 25%;
+    padding-top: 20px;
+    height: 85%;
+    
+    
+}
+.contact{
+    height: 75%;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/7e/f7/af/7ef7afec8113fa43891f4077c4069221.jpg);
+    
+   
+}
+#contact{
+    text-align: center;
+    font-size:60px;
+    font-family:monospace;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+input[type=text], select,textarea{
+    
+    width: 60%;
+    padding: 16px;
+    border: 1px solid darkgray;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 18px 50px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+.container {
+    margin-left: 30%;
+    padding: 20px;
+    color: #f2f2f2;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 80%;
+    margin-left: 10%;
+}  
+.contacticon {
+    margin-top: 40px;
+    background-color: black;
+    height: 20%;
+    
+    }
+.contacticon .fa-github{    
+    margin-left: 28%; 
+    color: white;
+    margin-top:50px;;
+}
+.contacticon .fa-linkedin{
+    margin-left: 150px;
+    color: white;
+}
+.contacticon .fa-jsfiddle{
+    margin-left: 150px;
+    color: white;
+}
+.contacticon .fa-envelope{
+    margin-left: 150px;
+    color: white;
+}
+
